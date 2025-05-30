@@ -29,13 +29,17 @@
         </event-block>
         <event-block sid="671802513671385">
             <conditions>
-                <condition id="2" name="Key is down" sid="115878083797168" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="623820248283849" type="Keyboard">
                     <param id="0" name="Key">65</param>
                 </condition>
             </conditions>
             <actions>
                 <action behavior="Platform" id="7" name="Simulate control" sid="596575260660800" type="Player">
                     <param id="0" name="Control">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="111403707667211" type="Player">
+                    <param id="0" name="Animation">&quot;player_walking&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -58,6 +62,36 @@
             <actions>
                 <action behavior="Platform" id="7" name="Simulate control" sid="252084941634748" type="Player">
                     <param id="0" name="Control">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="706221543071964" type="Player">
+                    <param id="0" name="Animation">&quot;player_walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="713670398993616">
+            <conditions>
+                <condition id="3" name="On key released" sid="298950994879132" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="125938052869147" type="Player">
+                    <param id="0" name="Animation">&quot;player_stand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="480391923250854">
+            <conditions>
+                <condition id="3" name="On key released" sid="890931456839769" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="297908207372286" type="Player">
+                    <param id="0" name="Animation">&quot;player_stand&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -102,6 +136,32 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="538335089068717" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="245755055900154">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="849741316912036" type="Player" />
+                <condition id="-4" name="Trigger once while true" sid="849884724704407" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="136084700398717" type="Player">
+                    <param id="0" name="Animation">&quot;player_stand&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="104852433810903">
+            <conditions>
+                <condition behavior="Platform" id="6" name="On fall" sid="647894254826624" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="433846958312760" type="Player">
+                    <param id="0" name="Animation">&quot;player_fall&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="682668392374014" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
             </actions>
         </event-block>
     </events>

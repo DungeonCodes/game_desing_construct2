@@ -158,9 +158,6 @@
         <object-type name="Keyboard" sid="353315812079126">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Text" sid="299821585443615">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="fundo_cidade" sid="463297344236868">
             <plugin id="Sprite" />
             <animation-folder>
@@ -202,6 +199,7 @@
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>

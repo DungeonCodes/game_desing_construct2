@@ -141,6 +141,7 @@
                 </action>
             </actions>
         </event-block>
+        <comment>Configuração adicional de animações</comment>
         <event-block sid="245755055900154">
             <conditions>
                 <condition behavior="Platform" id="2" name="Is on floor" sid="849741316912036" type="Player" />
@@ -167,6 +168,7 @@
                 </action>
             </actions>
         </event-block>
+        <comment>Sensores de Toque</comment>
         <event-block sid="436003502346816">
             <conditions>
                 <condition id="1" name="Is overlapping another object" sid="221325464314042" type="Player">
@@ -194,6 +196,7 @@
                 </action>
             </actions>
         </event-block>
+        <comment>Esconder os Textos e sensores</comment>
         <event-block sid="477368080824554">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="433415475354468" type="System" />

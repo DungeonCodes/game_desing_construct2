@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1749117395,
+	"version": 1749118861,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -12,6 +12,9 @@
 		"images/solidtile.png",
 		"images/jumpthrutile.png",
 		"images/fundo_cidade-sheet0.png",
+		"images/npc01-sheet0.png",
+		"images/spritefont.png",
+		"images/sensor_de_toque01-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",

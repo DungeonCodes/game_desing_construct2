@@ -221,7 +221,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1088</x>
+                        <x>992</x>
                         <y>736</y>
                         <z>0</z>
                         <width>96</width>
@@ -315,8 +315,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1056</x>
-                        <y>624</y>
+                        <x>1120</x>
+                        <y>640</y>
                         <z>0</z>
                         <width>160</width>
                         <height>16</height>
@@ -342,7 +342,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1056</x>
+                        <x>1120</x>
                         <y>496</y>
                         <z>0</z>
                         <width>160</width>
@@ -650,6 +650,131 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="npc01" uid="22">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>352</x>
+                        <y>736</y>
+                        <z>0</z>
+                        <width>64</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="dialogo01" uid="23">
+                    <properties>
+                        <text>Use as teclas A, W, S e D para se mover</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>208</x>
+                        <y>560</y>
+                        <z>0</z>
+                        <width>192</width>
+                        <height>48</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="dialogo02" uid="24">
+                    <properties>
+                        <text>Aperte a tecla &quot;S&quot;</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1104</x>
+                        <y>576</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="sensor_de_toque01" uid="25">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1200</x>
+                        <y>624</y>
+                        <z>0</z>
+                        <width>160</width>
+                        <height>16</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="dialogo_03" uid="26">
+                    <properties>
+                        <text>Ops...hahahah</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>80</x>
+                        <y>688</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -674,7 +799,7 @@
                         <text>Arrow keys or WASD to move</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-16</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>

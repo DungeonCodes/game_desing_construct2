@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
@@ -167,6 +168,35 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rafa5\OneDrive\Documentos\ChatGPT Image 5_06_2025, 06_53_50.png" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="npc01" sid="402614415250781">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="797338023421611" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="593970388367690">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="dialogo01" sid="280348713433413">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="dialogo02" sid="255597316522037">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="sensor_de_toque01" sid="892604757291436">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="323206606201734" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dialogo_03" sid="265295333866225">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />

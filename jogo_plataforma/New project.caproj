@@ -160,6 +160,14 @@
         <object-type name="Text" sid="299821585443615">
             <plugin id="Text" />
         </object-type>
+        <object-type name="fundo_cidade" sid="463297344236868">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="453339672122212" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\rafa5\OneDrive\Documentos\ChatGPT Image 5_06_2025, 06_53_50.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
